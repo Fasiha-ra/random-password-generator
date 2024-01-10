@@ -1,0 +1,214 @@
+.wrapper {
+  background-image: url(../images/bg.gif);
+  height: 100vh;
+}
+.wrapper .password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.wrapper .password main {
+  background-color: rgb(9, 29, 95);
+  max-width: 500px;
+  max-height: 600px;
+  padding: 20px 50px;
+}
+@media (min-width: 768px) {
+  .wrapper .password main {
+    width: 500px;
+  }
+}
+.wrapper .password main .text-holder {
+  font-size: 12px;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 33px;
+}
+@media (min-width: 376px) {
+  .wrapper .password main .text-holder {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+@media (min-width: 576px) {
+  .wrapper .password main .text-holder {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper .password main .text-holder {
+    font-size: 22px;
+    line-height: 45px;
+  }
+}
+.wrapper .password main .text-holder span {
+  color: rgb(98, 242, 98);
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(98, 242, 98);
+}
+.wrapper .password main .input-field .text-box {
+  margin: 20px 0;
+  max-width: 400px;
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .wrapper .password main .input-field .text-box {
+    width: 400px;
+  }
+}
+.wrapper .password main .input-field .text-box:hover {
+  box-shadow: 0px 0px 10px 5px rgb(83, 81, 81);
+}
+.wrapper .password main .btn {
+  background-color: rgb(98, 242, 98);
+  min-width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.wrapper .password main .btn:hover {
+  background-color: rgb(56, 213, 56);
+}
+.wrapper .password main .row {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  color: #fff;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(10, 18, 44);
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px 0px 15px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .wrapper .password main .row {
+    width: 400px;
+  }
+}
+.wrapper .password main .row .left {
+  text-transform: capitalize;
+}
+.wrapper .password main .row .right input {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 4px;
+  text-align: end;
+}
+.wrapper .password main .range-slider {
+  color: #fff;
+  position: relative;
+  max-width: 480px;
+  margin: 20px 0;
+  display: flex;
+  width: 90%;
+  height: 100%;
+}
+.wrapper .password main .range-slider .input-range {
+  width: 100%;
+}
+.wrapper .password main .range-slider .number {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px/20px "Josefin Sans", sans-serif;
+  color: #231f20;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  resize: vertical;
+  vertical-align: top;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=file],
+input[type=submit] {
+  cursor: pointer;
+}
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=styles.css.map */
